@@ -50,3 +50,4 @@ cells.forEach(cell => {
       cell.style.backgroundColor=rand_color;
     })
 });
+//changes
