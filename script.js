@@ -40,9 +40,6 @@ button.addEventListener("click",()=>
                 container.firstChild.remove()
             }
            make_grid(dimensions);
-        //    let d=960/p;
-        //    document.querySelector(".grid-cell").setAttribute("width",d);
-        //    document.querySelector(".grid-cell").setAttribute("height",d);
         }
 })
 const cells=document.querySelectorAll(".grid-cell");
@@ -51,6 +48,5 @@ cells.forEach(cell => {
     {
         let rand_color=getRandomColor();
       cell.style.backgroundColor=rand_color;
-    //   cell.style.opacity=cell.style.opacity*1.1;
     })
 });
